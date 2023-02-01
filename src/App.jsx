@@ -58,8 +58,8 @@ function App() {
             <Button name='2' className='2' onClick={handleClick}>2</Button>
             <Button name='3' className='3' onClick={handleClick}>3</Button>
             <ButtonPlus name='+' className='+' onClick={handleClick}>+</ButtonPlus>
-            <Button name='0' className='0' onClick={handleClick}>0</Button>
             <Button name='.' className='.' onClick={handleClick}>.</Button>
+            <Button name='0' className='0' onClick={handleClick}>0</Button>
             <Button onClick={calculate}> = </Button>
           </ButtonContainer>
         </Body>
